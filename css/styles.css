@@ -1,0 +1,226 @@
+body {
+	background: url("../images/bg.jpg") repeat-x;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: .8rem;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", helvetica, arial, sans-serif;
+}
+/*
+#wrapper {
+	background-color: #556578;
+}
+*/
+
+header {
+    background-color: #556578;
+}
+
+#logo img {
+    margin: 1rem 2rem;
+}
+
+#top-search input {
+	height: 1rem;
+    border-radius: 1rem;
+    margin: .7rem 0 .2rem -.8rem;
+    font-size: .6875rem;
+}
+
+#top-menu a {
+    color: #fff;
+    font-size: .8rem;
+    line-height: .9rem;
+}
+
+#top-menu a:hover {
+    color: #333;
+    background-color: #ccc;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+  padding-right: 1em;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border: none;
+}
+
+ul .submenu {
+    background-color: #8d9daf;
+    border: none;
+}
+
+ul.submenu a {
+    font-size: 0.736rem !important;
+    line-height: 0.5rem !important;
+}
+
+ul.submenu a:hover {
+    color: #fff !important;
+    background-color: #556578 !important;
+}
+
+#slogan {
+    background-color: #fe231d;
+    color: #fff;
+    font-size: .8rem;
+    line-height: 1.12rem;
+}
+
+#slogan p {
+    margin: .4rem 2rem;
+}
+
+ul#tabBanner {
+	z-index: 0;
+	width: 980px;
+/*	height: 98px;*/
+	overflow: hidden;
+	position: relative;
+	padding: 239px 0 20px 0;
+	margin: 0;
+	float: left;
+	background: #fff
+}
+
+ul#tabBanner li .banner {
+	display: none;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+ul#tabBanner li .banner img {
+	z-index: 10
+}
+
+ul#tabBanner li#tab1 .banner {
+	display: block
+}
+
+ul#tabBanner li.hover .banner,
+ul#tabBanner li:hover .banner {
+	display: block;
+	margin: 0;
+	padding: 0
+}
+
+ul#tabBanner li {
+	z-index: 20;
+	float: left;
+	width: 24.9%;
+	height: 98px;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #fff;
+	color: #fff
+}
+
+ul#tabBanner li a:link,
+ul#tabBanner li a:visited {
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	width: 24.9%;
+	height: 98px;
+	padding: 0;
+/*	bottom: 0;*/
+	background-color: #556578;
+	text-indent: -1000px;
+	color: #fff;
+	text-decoration: none
+}
+
+ul#tabBanner li a:hover {
+	z-index: 20;
+	display: block;
+	height: 136px
+}
+
+li#tab1 a:link,
+li#tab1 a:visited {
+	left: 0;
+	background: url("../images/service_01.png")
+}
+
+li#tab1 a:hover {
+	background: url("../images/service_01_on.png")
+}
+
+li#tab2 a {
+	left: 25%;
+	background: url("../images/service_02.gif")
+}
+
+li#tab2 a:hover {
+	background: url("../images/service_02_on.gif")
+}
+
+li#tab3 a {
+	left: 50%;
+	background: url("../images/service_03.gif")
+}
+
+li#tab3 a:hover {
+	background: url("../images/service_03_on.gif")
+}
+
+li#tab4 a {
+	width: 246px !important;
+	left: 75%;
+	background: url("../images/service_04.gif")
+}
+
+li#tab4 a:hover {
+	width: 246px !important;
+	background: url("../images/service_01_on.png")
+}
+
+section {
+    border-width: 0 .375rem;
+    border-color: #929DA9;
+    border-style: solid;
+    padding: 24rem 0 2rem 0;
+}
+
+section h6 {
+    color: #41576f;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+section > div.main-page > div:nth-child(2) {
+    border-width: 0 .1rem;
+    border-color: #CED2D8;
+    border-style: solid;
+}
+
+section span {
+    color: #4c739c;
+    font-weight: 900;
+}
+
+footer {
+    color: #fff;
+}
+
+footer div.large-7 {
+    border-width: 0 0 0 .375rem;
+    border-color: #41576F;
+    border-style: solid;
+    background-color: #41576f;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer div.large-5 {
+    border-right: .375rem solid #999;
+    border-left: .15rem solid #fff;
+    background-color: #999;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
